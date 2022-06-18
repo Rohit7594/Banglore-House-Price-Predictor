@@ -22,7 +22,7 @@ def predict():
     print(locations,bhk,bath,sqft)
 
     input=pd.DataFrame([[locations,sqft,bath,bhk]],columns=["location","total_sqft","bath","Bhk"])
-    prediction=str(np.round(pipe.predict(input)[0]/100,2))
+    prediction=str(np.round((pipe.predict(input)[0]+0.2)/100,2)) # I have converted Lakhs into Crores. Since data set is old, so I have added 0.2(20lakhs to compansate inflation.
     return "As per your requirement the predicted house price is {} crore".format(prediction)
 
 if __name__=="__main__":
