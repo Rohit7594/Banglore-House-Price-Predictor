@@ -73,7 +73,7 @@
         document.getElementById("prediction").innerHTML="Wait Predicting Price...";
         xhr.onreadystatechange=function(){
           if(xhr.readyState==XMLHttpRequest.DONE){
-            document.getElementById("prediction").innerHTML="Prediction: Rs "+xhr.responseText;
+            document.getElementById("prediction").innerHTML="As per your requirement the house price in Banglore will be around: Rs "+xhr.responseText;
           }
          }
          xhr.onload=function(){};
