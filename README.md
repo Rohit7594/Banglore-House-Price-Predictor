@@ -1,4 +1,4 @@
-# Banglore-House-Price-Predictor.
+# Banglore-House-Price-Predictor
 
 <img width="90%" src="https://user-images.githubusercontent.com/70078572/174433131-b5eac5a2-edc1-4baf-b99d-45fe80fccde9.gif">
 
