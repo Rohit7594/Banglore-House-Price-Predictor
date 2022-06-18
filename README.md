@@ -16,11 +16,13 @@ In the data set, historical house prices of Banglore city. Include things like l
 
 I have tried Liner regression, Ridge & Lasso model and their respective scores are as follows;
 
-"Linerregression":0.8381860339652341
-"Lasso":0.8263029869374969
-"Ridge":0.8383227066936583
+"Linerregression": 0.8381860339652341
+"Lasso": 0.8263029869374969
+"Ridge": 0.8383227066936583
 
 ## 4. Deployment
 
 I have used Ridge model and created webapp using flask,HTML and bootstrap.
 Deployment is done on Heroku: [Web App](https://house-price-predictor-banglore.herokuapp.com/)
+
+<img width="90%" src="">
