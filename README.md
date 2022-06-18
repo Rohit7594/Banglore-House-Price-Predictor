@@ -20,7 +20,7 @@ I have tried Liner regression, Ridge & Lasso model and their respective scores a
 
 "Linerregression": 0.8381860339652341
 "Lasso": 0.8263029869374969
-"Ridge": 0.8383227066936583![20220618_153635]
+"Ridge": 0.8383227066936583
 
 
 ## 4. Deployment
